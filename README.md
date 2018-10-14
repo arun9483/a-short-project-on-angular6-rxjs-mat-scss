@@ -22,10 +22,28 @@ Create an application that does the following:
 
 All requirements have been implementted successfully.
 
-### Technology stack
+### How to run and build project
 
-Angular 6, SCSS, Angular material design, RxJs.
-Angular CLI
+Use below commands
+```
+// clone project repository
+git clone git@github.com:arun9483/a-short-project-on-angular6-rxjs-mat-scss.git
+
+// swith to a-short-project-on-angular6-rxjs-mat-scss directory and install npm packages
+cd a-short-project-on-angular6-rxjs-mat-scss
+npm install
+
+// run in dev mode
+npm run start
+
+// create production ready code.
+// content of dist/a-short-project-on-angular6-rxjs-mat-scss will be deployed in production server
+npm run build
+```
+
+### Technology
+
+Angular 6, SCSS, Angular material design, RxJs, Angular CLI, TypeScript
 
 ### Improvement Scope / Proposed feature addition
 
