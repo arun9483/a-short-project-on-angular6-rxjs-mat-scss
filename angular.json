@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "engineer-ai": {
+    "a-short-project-on-angular6-rxjs-mat-scss": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/engineer-ai",
+            "outputPath": "dist/a-short-project-on-angular6-rxjs-mat-scss",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "engineer-ai:build"
+            "browserTarget": "a-short-project-on-angular6-rxjs-mat-scss:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "engineer-ai:build:production"
+              "browserTarget": "a-short-project-on-angular6-rxjs-mat-scss:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "engineer-ai:build"
+            "browserTarget": "a-short-project-on-angular6-rxjs-mat-scss:build"
           }
         },
         "test": {
@@ -105,7 +105,7 @@
         }
       }
     },
-    "engineer-ai-e2e": {
+    "a-short-project-on-angular6-rxjs-mat-scss-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -113,11 +113,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "engineer-ai:serve"
+            "devServerTarget": "a-short-project-on-angular6-rxjs-mat-scss:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "engineer-ai:serve:production"
+              "devServerTarget": "a-short-project-on-angular6-rxjs-mat-scss:serve:production"
             }
           }
         },
@@ -133,5 +133,5 @@
       }
     }
   },
-  "defaultProject": "engineer-ai"
+  "defaultProject": "a-short-project-on-angular6-rxjs-mat-scss"
 }

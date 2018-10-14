@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'engineer-ai';
+  title = 'a-short-project-on-angular6-rxjs-mat-scss';
 }
